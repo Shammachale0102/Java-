@@ -7,35 +7,35 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 
 #### It is used for:
 
-Mobile applications (specially Android apps).
+* Mobile applications (specially Android apps).
 
-Desktop applications.
+* Desktop applications.
 
-Web applications.
+* Web applications.
 
-Web servers and application servers.
+* Web servers and application servers.
 
-Games.
+* Games.
 
-Database connection.
+* Database connection.
 
-And much, much more!.
+* And much, much more!.
 
 ### Why Use Java?
-Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.).
+* Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.).
 
-It is one of the most popular programming languages in the world.
+* It is one of the most popular programming languages in the world.
 
-It has a large demand in the current job market.
+* It has a large demand in the current job market.
 
-It is easy to learn and simple to use.
+* It is easy to learn and simple to use.
 
-It is open-source and free.
+* It is open-source and free.
 
-It is secure, fast and powerful.
+* It is secure, fast and powerful.
 
-It has huge community support (tens of millions of developers).
+* It has huge community support (tens of millions of developers).
 
-Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+* Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
 
-As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.
+* As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.
