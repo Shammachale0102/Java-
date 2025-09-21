@@ -41,5 +41,37 @@ It is owned by Oracle, and more than 3 billion devices run Java.
 
 * As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.
 
+## Java Syntax
+Java Syntax
+In the previous chapter, we created a Java file called Main.java, and we used the following code to print "Hello World" to the screen:
 
+<pre>
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+</pre>
+
+### Example explained:
+Every line of code that runs in Java must be inside a class. The class name should always start with an uppercase first letter. In our example, we named the class Main.
+
+Note: Java is case-sensitive. MyClass and myclass would be treated as two completely different names.
+
+The name of the Java file must match the class name. So if your class is called Main, the file must be saved as Main.java. This is because Java uses the class name to find and run your code. If the names don't match, Java will give an error and the program will not run.
+When saving the file, save it using the class name and add .java to the end of the filename. To run the example above on your computer, make sure that Java is properly installed: Go to the Get Started Chapter for how to install Java. The output should be:
+
+<pre>Hello World</pre>
+#### The main Method
+The main() method is required in every Java program. It is where the program starts running:
+<pre>public static void main(String[] args)</pre>
+Any code placed inside the main() method will be executed.
+
+For now, you don't need to understand the keywords public, static, and void. You will learn about them later in this tutorial. Just remember: main() is the starting point of every Java program.
+
+#### System.out.println()
+Inside the main() method, we can use the println() method to print a line of text to the screen:
+<pre>public static void main(String[] args) {
+  System.out.println("Hello World");
+}</pre>
 
