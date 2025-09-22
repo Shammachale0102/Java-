@@ -75,3 +75,44 @@ Inside the main() method, we can use the println() method to print a line of tex
   System.out.println("Hello World");
 }</pre>
 
+###Java Statements
+####Statements
+A computer program is a list of "instructions" to be "executed" by a computer.
+
+In a programming language, these programming instructions are called statements.
+
+The following statement "instructs" the compiler to print the text "Java is fun!" to the screen:
+<pre>System.out.println("Java is fun!");</pre>
+
+It is important that you end the statement with a semicolon ;.
+
+If you forget the semicolon (;), an error will occur and the program will not run:
+
+#### Example
+<pre>System.out.println("Java is fun!")</pre>
+
+Result:
+<pre>error: ';' expected</pre>
+###Many Statements
+Most Java programs contain many statements.
+
+The statements are executed, one by one, in the same order as they are written:
+<pre>System.out.println("Hello World!");
+System.out.println("Have a good day!");
+System.out.println("Learning Java is fun!");</pre>
+
+#### Example explained
+From the example above, we have three statements:
+
+1.System.out.println("Hello World!");
+
+2.System.out.println("Have a good day!");
+
+3.System.out.println("Learning Java is fun!");
+
+
+The first statement is executed first (print "Hello World!" to the screen).
+
+Then the second statement is executed (print "Have a good day!" to the screen).
+
+And at last, the third statement is executed (print "Learning Java is fun!" to the screen).
