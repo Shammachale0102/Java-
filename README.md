@@ -75,8 +75,8 @@ Inside the main() method, we can use the println() method to print a line of tex
   System.out.println("Hello World");
 }</pre>
 
-###Java Statements
-####Statements
+### Java Statements
+#### Statements
 A computer program is a list of "instructions" to be "executed" by a computer.
 
 In a programming language, these programming instructions are called statements.
@@ -93,7 +93,7 @@ If you forget the semicolon (;), an error will occur and the program will not ru
 
 Result:
 <pre>error: ';' expected</pre>
-###Many Statements
+### Many Statements
 Most Java programs contain many statements.
 
 The statements are executed, one by one, in the same order as they are written:
