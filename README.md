@@ -144,3 +144,19 @@ There is also a print() method, which is similar to println().
 The only difference is that it does not insert a new line at the end of the output:
 <pre>System.out.print("Hello World! ");
 System.out.print("I will print on the same line.");</pre>
+
+### Java Output Numbers
+#### Print Numbers
+You can also use the println() method to print numbers.
+
+However, unlike text, we don't put numbers inside double quotes:
+<pre>System.out.println(3);
+System.out.println(358);
+System.out.println(50000);</pre>
+
+You can also perform mathematical calculations inside the println() method:
+
+<pre>System.out.println(3 + 3);</pre>
+
+#### Example
+<pre>System.out.println(2 * 5);</pre>
