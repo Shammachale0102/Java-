@@ -1,5 +1,3 @@
-
-
 # Java-
 ### Java Introduction
 What is Java?
@@ -261,3 +259,41 @@ float myFloatNum = 5.99f;
 char myLetter = 'D';
 boolean myBool = true;
 String myText = "Hello";</pre>
+### Java Print Variables
+
+#### Display Variables
+The println() method is often used to display variables.
+
+To combine both text and a variable, use the + character:
+
+#### Example
+
+Get your own Java Server
+<pre>String name = "John";
+System.out.println("Hello " + name);</pre>
+
+You can also use the + character to add a variable to another variable:
+
+#### Example
+<pre>String firstName = "John ";
+String lastName = "Doe";
+String fullName = firstName + lastName;
+System.out.println(fullName);</pre>
+
+In Java, the + symbol has two meanings:
+
+For text (strings), it joins them together (called concatenation).
+For numbers, it adds values together.
+For numeric values, the + character works as a mathematical operator (notice that we use int (integer) variables here):
+
+#### Example
+<pre>int x = 5;
+int y = 6;
+System.out.println(x + y); // Print the value of x + y</pre>
+
+From the example above, here's what happens step by step:
+
+x stores the value 5
+y stores the value 6
+println() displays the result of x + y, which is 11
+
