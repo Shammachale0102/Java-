@@ -311,3 +311,19 @@ System.out.println("The sum is " + (x + y)); // Prints: The sum is 11</pre>
 In the first line, Java combines "The sum is " with x, creating the string "The sum is 5". Then y is added to that string, so it becomes "The sum is 56".
 
 In the second line, the parentheses make sure x + y is calculated first (resulting in 11), so the output is "The sum is 11".
+
+### Java Declare Multiple Variables
+#### Declare Many Variables
+To declare more than one variable of the same type, you can use a comma-separated list:
+
+#### Example
+Instead of writing:
+<pre>int x = 5;
+int y = 6;
+int z = 50;
+System.out.println(x + y + z); // 61</pre>
+
+You can write:
+<pre>int x = 5, y = 6, z = 50;
+System.out.println(x + y + z); // 61</pre>
+
