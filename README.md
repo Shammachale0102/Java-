@@ -327,3 +327,10 @@ You can write:
 <pre>int x = 5, y = 6, z = 50;
 System.out.println(x + y + z); // 61</pre>
 
+#### One Value to Multiple Variables
+You can also assign the same value to multiple variables in one line:
+
+#### Example
+<pre>int x, y, z;
+x = y = z = 50;
+System.out.println(x + y + z); // 150</pre>
