@@ -334,3 +334,33 @@ You can also assign the same value to multiple variables in one line:
 <pre>int x, y, z;
 x = y = z = 50;
 System.out.println(x + y + z); // 150</pre>
+
+### Java Identifiers
+#### Identifiers
+All Java variables must be identified with unique names.
+
+These unique names are called identifiers.
+
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+
+Note: It is recommended to use descriptive names in order to create understandable and maintainable code:
+#### Example
+<pre>// Good
+int minutesPerHour = 60;
+
+// OK, but not so easy to understand what m actually is
+int m = 60;</pre>
+
+The general rules for naming variables are:
+
+.Names can contain letters, digits, underscores, and dollar signs
+
+.Names must begin with a letter
+
+.Names should start with a lowercase letter, and cannot contain whitespace
+
+.Names can also begin with $ and _
+
+.Names are case-sensitive ("myVar" and "myvar" are different variables)
+
+.Reserved words (like Java keywords, such as int or boolean) cannot be used as names
