@@ -363,3 +363,14 @@ The general rules for naming variables are:
 .Names are case-sensitive ("myVar" and "myvar" are different variables)
 
 .Reserved words (like Java keywords, such as int or boolean) cannot be used as names
+
+#### Invalid Identifiers
+Here are some examples of invalid identifiers that would cause errors:
+
+#### Example
+<pre>// Invalid identifiers:
+int 2ndNumber = 5;  // Cannot start with a digit
+int my var = 10;    // Cannot contain spaces
+int int = 20;       // Cannot use reserved keywords</pre>
+
+
