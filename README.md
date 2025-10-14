@@ -374,4 +374,12 @@ int 2ndNumber = 5;  // Cannot start with a digit
 int my var = 10;    // Cannot contain spaces
 int int = 20;       // Cannot use reserved keywords</pre>
 
+### Java Constants (final)
+#### Constants (final keyword)
+When you do not want a variable's value to change, use the final keyword.
+
+A variable declared with final becomes a constant, which means unchangeable and read-only:
+#### Example
+<pre>final int myNum = 15;
+myNum = 20;  // Error: cannot assign a value to final variable 'myNum'</pre>
 
