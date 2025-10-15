@@ -383,3 +383,9 @@ A variable declared with final becomes a constant, which means unchangeable and 
 <pre>final int myNum = 15;
 myNum = 20;  // Error: cannot assign a value to final variable 'myNum'</pre>
 
+#### When to Use final?
+You should declare variables as final when their values should never change. For example, the number of minutes in an hour, or your birth year:
+
+#### Example
+<pre>final int MINUTES_PER_HOUR = 60;
+final int BIRTHYEAR = 1980;</pre>
