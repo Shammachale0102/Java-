@@ -390,3 +390,26 @@ You should declare variables as final when their values should never change. For
 #### Example
 <pre>final int MINUTES_PER_HOUR = 60;
 final int BIRTHYEAR = 1980;</pre>
+
+### Java Variables - Examples
+#### Real-Life Examples
+
+Often in our examples, we simplify variable names to match their data type (myInt or myNum for int types, myChar for char types, and so on). This is done to avoid confusion.
+
+
+However, for a practical example of using variables, we have created a program that stores different data about a college student:
+#### Example
+<pre>// Student data
+String studentName = "John Doe";
+int studentID = 15;
+int studentAge = 23;
+float studentFee = 75.25f;
+char studentGrade = 'B';
+
+// Print variables
+System.out.println("Student name: " + studentName);
+System.out.println("Student id: " + studentID);
+System.out.println("Student age: " + studentAge);
+System.out.println("Student fee: " + studentFee);
+System.out.println("Student grade: " + studentGrade);</pre>
+
