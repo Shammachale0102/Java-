@@ -469,3 +469,12 @@ boolean  ::    	Stores true or false values
 
 char	  ::      Stores a single character/letter or ASCII values
 
+### You Cannot Change the Type
+Once a variable is declared with a type, it cannot change to another type later in the program:
+
+#### Example
+int myNum = 5;       // myNum is an int
+// myNum = "Hello";  // Error: cannot assign a String to an int
+
+String myText = "Hi"; // myText is a String
+// myText = 123;      // Error: cannot assign a number to a String
