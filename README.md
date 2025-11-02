@@ -495,4 +495,10 @@ The byte data type can store whole numbers from -128 to 127. This can be used in
 <pre>byte myNum = 100;
 System.out.println(myNum);</pre>
 
+### Short
+The short data type can store whole numbers from -32768 to 32767:
+
+#### Example
+<pre>short myNum = 5000;
+System.out.println(myNum);</pre>
 
