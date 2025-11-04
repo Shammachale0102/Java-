@@ -508,3 +508,10 @@ The int data type can store whole numbers from -2147483648 to 2147483647. In gen
 #### Example
 <pre>int myNum = 100000;
 System.out.println(myNum);</pre>
+
+### Long
+The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807. This is used when int is not large enough to store the value. Note that you should end the value with an "L":
+
+#### Example
+<pre>Example</pre>
+
