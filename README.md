@@ -515,3 +515,12 @@ The long data type can store whole numbers from -9223372036854775808 to 92233720
 #### Example
 <pre>Example</pre>
 
+### Floating Point Types
+You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
+
+The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles:
+
+#### Float Example
+
+<pre>float myNum = 5.75f;
+System.out.println(myNum);</pre>
