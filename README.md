@@ -524,3 +524,16 @@ The float and double data types can store fractional numbers. Note that you shou
 
 <pre>float myNum = 5.75f;
 System.out.println(myNum);</pre>
+
+### Double Example
+<pre>double myNum = 19.99d;
+System.out.println(myNum);</pre>
+
+### Scientific Numbers
+A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+
+#### Example
+ <pre>float f1 = 35e3f;
+double d1 = 12E4d;
+System.out.println(f1);
+System.out.println(d1);</pre>
