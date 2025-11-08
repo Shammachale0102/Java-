@@ -555,3 +555,19 @@ For this, Java has a boolean data type, which can only take the values true or f
 boolean isFishTasty = false;
 System.out.println(isJavaFun);     // Outputs true
 System.out.println(isFishTasty);   // Outputs false</pre>
+
+### Java Characters
+
+#### Characters
+The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+
+#### Example
+<pre>char myGrade = 'B';
+System.out.println(myGrade);</pre>
+
+Alternatively, if you are familiar with ASCII values, you can use those to display certain characters:
+#### Example 
+<pre>char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+System.out.println(myVar1);
+System.out.println(myVar2);
+System.out.println(myVar3);</pre>
