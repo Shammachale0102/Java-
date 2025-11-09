@@ -571,3 +571,10 @@ Alternatively, if you are familiar with ASCII values, you can use those to displ
 System.out.println(myVar1);
 System.out.println(myVar2);
 System.out.println(myVar3);</pre>
+
+### Strings 
+The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+
+#### Example
+<pre>String greeting = "Hello World";
+System.out.println(greeting);</pre>
