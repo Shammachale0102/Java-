@@ -614,3 +614,19 @@ The main differences between primitive and non-primitive data types are:
 .Primitive types start with a lowercase letter (like int), while non-primitive types typically starts with an uppercase letter (like String).
 
 .Primitive types always hold a value, whereas non-primitive types can be null.
+
+### Java var
+#### The var Keyword
+
+The var keyword was introduced in Java 10 (released in 2018).
+
+The var keyword lets the compiler automatically detect the type of a variable based on the value you assign to it.
+
+This helps you write cleaner code and avoid repeating types, especially for long or complex types.
+
+For example, instead of writing int x = 5;, you can write:
+#### Example
+<pre>var x = 5;  // x is an int
+System.out.println(x);</pre>
+
+
