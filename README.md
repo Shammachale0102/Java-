@@ -629,4 +629,14 @@ For example, instead of writing int x = 5;, you can write:
 <pre>var x = 5;  // x is an int
 System.out.println(x);</pre>
 
+#### Example with Different Types
+Here are some examples showing how var can be used to create variables of different types, based on the values you assign:
+
+#### Example
+<pre>var myNum = 5;         // int
+var myDouble = 9.98;   // double
+var myChar = 'D';      // char
+var myBoolean = true;  // boolean
+var myString = "Hello"; // String</pre>
+
 
