@@ -639,4 +639,13 @@ var myChar = 'D';      // char
 var myBoolean = true;  // boolean
 var myString = "Hello"; // String</pre>
 
+#### Important Notes
+1. var only works when you assign a value at the same time (you can't declare var x; without assigning a value):
+<pre>var x; // Error
+var x = 5;  // OK</pre>
+
+2. Once the type is chosen, it stays the same. See example below:
+   <pre>var x = 5;  // x is now an int
+x = 10;     // OK - still an int
+x = 9.99;   // Error - can't assign a double to an int</pre>
 
