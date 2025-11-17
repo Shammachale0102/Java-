@@ -650,3 +650,12 @@ var x = 5;  // OK</pre>
 x = 10;     // OK - still an int
 x = 9.99;   // Error - can't assign a double to an int</pre>
 
+### When to Use var
+For simple variables, it's usually clearer to write the type directly (int, double, char, etc.).
+
+#### Example
+<pre>// Without var
+ArrayList<String> cars = new ArrayList<String>();
+
+// With var
+var cars = new ArrayList<String>();</pre>
