@@ -676,3 +676,17 @@ byte -> short -> char -> int -> long -> float -> double
 
 .Narrowing Casting (manual) - converting a larger type to a smaller type size
 double -> float -> long -> int -> char -> short -> byte
+
+### Widening Casting
+Widening casting is done automatically when passing a smaller size type into a larger size type.
+
+
+This works because there is no risk of losing information. For example, an int value can safely fit inside a double:
+
+#### Example
+<pre>int myInt = 9;
+double myDouble = myInt; // Automatic casting: int to double
+
+System.out.println(myInt);    // Outputs 9
+System.out.println(myDouble); // Outputs 9.0</pre>
+
