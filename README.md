@@ -690,3 +690,16 @@ double myDouble = myInt; // Automatic casting: int to double
 System.out.println(myInt);    // Outputs 9
 System.out.println(myDouble); // Outputs 9.0</pre>
 
+### Narrowing Casting
+Narrowing casting must be done manually by placing the type in parentheses () in front of the value.
+
+
+This is required because narrowing may result in data loss (for example, dropping decimals when converting a double to an int):
+
+#### Example
+<pre>double myDouble = 9.78d;
+int myInt = (int) myDouble; // Manual casting: double to int
+
+System.out.println(myDouble); // Outputs 9.78
+System.out.println(myInt);    // Outputs 9</pre>
+
