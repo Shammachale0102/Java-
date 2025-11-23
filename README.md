@@ -700,3 +700,22 @@ int myInt = (int) myDouble; // Manual casting: double to int
 System.out.println(myDouble); // Outputs 9.78
 System.out.println(myInt);    // Outputs 9</pre>
 
+### Real-Life Example
+Here is a real-life example of type casting. We calculate the percentage of a user's score in relation to the maximum score in a game.
+
+
+We use type casting to make sure that the result is a floating-point value, rather than an integer:
+
+#### Example
+<pre>// Set the maximum possible score in the game to 500
+int maxScore = 500;
+
+// The actual score of the user
+int userScore = 423;
+
+/* Calculate the percentage of the user's score in relation to the maximum available score.
+Convert userScore to double to make sure that the division is accurate */
+double percentage = (double) userScore / maxScore * 100.0d;
+
+System.out.println("User's percentage is " + percentage);</pre>
+
