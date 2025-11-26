@@ -737,3 +737,18 @@ Although the + operator is often used to add together two values, like in the ex
 <pre>int sum1 = 100 + 50;        // 150 (100 + 50)
 int sum2 = sum1 + 250;      // 400 (150 + 250)
 int sum3 = sum2 + sum2;     // 800 (400 + 400)</pre>
+
+## Java Arithmetic Operators
+### Arithmetic Operators
+
+Arithmetic operators are used to perform common mathematical operations.
+
+Operator	   Name	    Description	     Example	
+<pre> +	Addition	Adds together two values	x + y	</pre>
+<pre>-	Subtraction	Subtracts one value from another	x - y	</pre>
+<pre>*	Multiplication	Multiplies two values	x * y	</pre>
+<pre>/	Division	Divides one value by another	x / y	</pre>
+<pre>%	Modulus	Returns the division remainder	x % y	</pre>
+<pre>++	Increment	Increases the value of a variable by 1	++x	</pre>
+<pre>--	Decrement	Decreases the value of a variable by 1	--x</pre>
+
