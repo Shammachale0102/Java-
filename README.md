@@ -743,7 +743,10 @@ int sum3 = sum2 + sum2;     // 800 (400 + 400)</pre>
 
 Arithmetic operators are used to perform common mathematical operations.
 
-Operator	   Name	    Description	     Example	
+Operator	  
+Name	    
+Description	    
+Example	
 <pre> +	Addition	Adds together two values	x + y	</pre>
 <pre>-	Subtraction	Subtracts one value from another	x - y	</pre>
 <pre>*	Multiplication	Multiplies two values	x * y	</pre>
