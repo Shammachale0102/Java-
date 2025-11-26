@@ -453,23 +453,17 @@ A primitive data type specifies the type of a variable and the kind of values it
 
 There are eight primitive data types in Java:
 
-Data Type ||Description
+| Data Type | Description |
+|-----------|-------------|
+| byte      | Stores whole numbers from -128 to 127 |
+| short     | Stores whole numbers from -32,768 to 32,767 |
+| int       | Stores whole numbers from -2,147,483,648 to 2,147,483,647 |
+| long      | Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
+| float     | Stores fractional numbers; sufficient for storing 6 to 7 decimal digits |
+| double    | Stores fractional numbers; sufficient for storing 15 to 16 decimal digits |
+| boolean   | Stores true or false values |
+| char      | Stores a single character/letter or ASCII values |
 
-byte	::        Stores whole numbers from -128 to 127
-
-short	 ::       Stores whole numbers from -32,768 to 32,767
-
-int	 ::         Stores whole numbers from -2,147,483,648 to 2,147,483,647
-
-long	  ::      Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-
-float	  ::      Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
-
-double	::      Stores fractional numbers. Sufficient for storing 15 to 16 decimal digits
-
-boolean  ::    	Stores true or false values
-
-char	  ::      Stores a single character/letter or ASCII values
 
 ### You Cannot Change the Type
 Once a variable is declared with a type, it cannot change to another type later in the program:
@@ -743,15 +737,14 @@ int sum3 = sum2 + sum2;     // 800 (400 + 400)</pre>
 
 Arithmetic operators are used to perform common mathematical operations.
 
-Operator	  
-Name	    
-Description	    
-Example	
-<pre> +	Addition	Adds together two values	x + y	</pre>
-<pre>-	Subtraction	Subtracts one value from another	x - y	</pre>
-<pre>*	Multiplication	Multiplies two values	x * y	</pre>
-<pre>/	Division	Divides one value by another	x / y	</pre>
-<pre>%	Modulus	Returns the division remainder	x % y	</pre>
-<pre>++	Increment	Increases the value of a variable by 1	++x	</pre>
-<pre>--	Decrement	Decreases the value of a variable by 1	--x</pre>
+| Operator | Name        | Description                             | Example |
+|----------|-------------|-----------------------------------------|---------|
+| +        | Addition    | Adds together two values                | x + y   |
+| -        | Subtraction | Subtracts one value from another        | x - y   |
+| *        | Multiplication | Multiplies two values                | x * y   |
+| /        | Division    | Divides one value by another            | x / y   |
+| %        | Modulus     | Returns the division remainder          | x % y   |
+| ++       | Increment   | Increases the value of a variable by 1  | ++x     |
+| --       | Decrement   | Decreases the value of a variable by 1  | --x     |
+
 
