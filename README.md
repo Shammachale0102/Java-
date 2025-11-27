@@ -747,4 +747,30 @@ Arithmetic operators are used to perform common mathematical operations.
 | ++       | Increment   | Increases the value of a variable by 1  | ++x     |
 | --       | Decrement   | Decreases the value of a variable by 1  | --x     |
 
+Here is an example using different arithmetic operators in one example:
+#### Example
+<pre>int x = 10;
+int y = 3;
+
+System.out.println(x + y); // 13
+System.out.println(x - y); // 7
+System.out.println(x * y); // 30
+System.out.println(x / y); // 3
+System.out.println(x % y); // 1
+
+int z = 5;
+++z;
+System.out.println(z); // 6
+--z;
+System.out.println(z); // 5</pre>
+
+#### Example
+<pre>int a = 10;
+int b = 3;
+System.out.println(a / b);   // Integer division, result is 3
+
+double c = 10.0d;
+double d = 3.0d;
+System.out.println(c / d);   // Decimal division, result is 3.333...</pre>
+
 
