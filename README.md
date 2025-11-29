@@ -1,6 +1,3 @@
-
-
-
 # Java-
 ## Java Introduction
 ### What is Java?
@@ -774,4 +771,29 @@ double c = 10.0d;
 double d = 3.0d;
 System.out.println(c / d);   // Decimal division, result is 3.333...</pre>
 
+### Incrementing and Decrementing
+Incrementing and decrementing are very common in programming, especially when working with counters, loops, and arrays (which you will learn more about in later chapters).
+
+The ++ operator increases a value by 1, while the -- operator decreases a value by 1:
+#### Example
+<pre>int x = 5;
+
+++x; // Increment x by 1
+System.out.println(x); // 6</pre>
+
+#### Example
+<pre>int x = 5;
+
+--x; // Decrement x by 1
+System.out.println(x); // 4</pre>
+
+Sometimes, you might both increment and decrement the same variable. Remember that if you increase a value and later decrease it, it will go up by one and then back down by one - ending up where it started:
+
+#### Example
+<pre>int x = 5;
+
+++x; // Increment x by 1 (x becomes 6)
+--x; // Decrement x by 1 (x becomes 5 again)
+
+System.out.println(x); // 5</pre>
 
