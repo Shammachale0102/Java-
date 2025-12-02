@@ -818,3 +818,15 @@ System.out.println(peopleInRoom); // 2
 
 </pre>
 
+### Java Comparison Operators
+#### Comparison Operators
+
+Comparison operators are used to compare two values (or variables). This is important in programming, because it helps us to find answers and make decisions.
+The return value of a comparison is either true or false. These values are known as Boolean values, and you will learn more about them in the Booleans and If..Else chapter.
+
+In the following example, we use the greater than operator (>) to find out if 5 is greater than 3:
+
+#### Example
+<pre>int x = 5;
+int y = 3;
+System.out.println(x > y); // returns true, because 5 is higher than 3</pre>
