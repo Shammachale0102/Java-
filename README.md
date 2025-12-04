@@ -831,3 +831,15 @@ In the following example, we use the greater than operator (>) to find out if 5 
 <pre>int x = 5;
 int y = 3;
 System.out.println(x > y); // returns true, because 5 is higher than 3</pre>
+
+#### A list of all comparison operators:
+
+| Operator |   Name                    | Example  | 
+|----------|---------------------------|--------- |
+| ==       | Equal to                  | `x == y` |        
+| !=       | Not equal                 | `x != y` |        
+| >        | Greater than              | `x > y`  |        
+| <        | Less than                 | `x < y`  |        
+| >=       | Greater than or equal to  | `x >= y` |        
+| <=       | Less than or equal to     | `x <= y` |        
+
