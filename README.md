@@ -1,5 +1,3 @@
-
-
 # Java-
 ## Java Introduction
 ### What is Java?
@@ -842,4 +840,21 @@ System.out.println(x > y); // returns true, because 5 is higher than 3</pre>
 | <        | Less than                 | `x < y`  |        
 | >=       | Greater than or equal to  | `x >= y` |        
 | <=       | Less than or equal to     | `x <= y` |        
+
+#### Real-Life Examples
+Comparison operators are often used in real-world conditions, such as checking if a person is old enough to vote:
+
+#### Example
+<pre>int age = 18;
+
+System.out.println(age >= 18); // true, old enough to vote
+System.out.println(age < 18);  // false</pre>
+
+Another common use is checking if a password is long enough:
+
+#### Example
+<pre>int passwordLength = 5;
+
+System.out.println(passwordLength >= 8); // false, too short
+System.out.println(passwordLength < 8);  // true, needs more characters</pre>
 
