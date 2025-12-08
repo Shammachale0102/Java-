@@ -860,3 +860,16 @@ Another common use is checking if a password is long enough:
 System.out.println(passwordLength >= 8); // false, too short
 System.out.println(passwordLength < 8);  // true, needs more characters</pre>
 
+### Java Logical Operators
+#### Logical Operators 
+
+As with comparison operators, you can also test for true or false values with logical operators.
+
+Logical operators are used to determine the logic between variables or values, by combining multiple conditions::
+
+| Operator | Name          | Example                 |
+|----------|---------------|------------------------|
+| &&       | Logical AND   | `x < 5 && x < 10`      |
+| \|\|     | Logical OR    | `x < 5 || x < 4`       |
+| !        | Logical NOT   | `!(x < 5 && x < 10)`   |
+
