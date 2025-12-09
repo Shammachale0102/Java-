@@ -873,3 +873,15 @@ Logical operators are used to determine the logic between variables or values, b
 | \|\|     | Logical OR    | `x < 5 || x < 4`       |
 | !        | Logical NOT   | `!(x < 5 && x < 10)`   |
 
+
+### Real-Life Example: Login Check
+The example below shows how logical operators can be used in a real situation, e.g. when checking login status and access rights:
+
+#### Example
+<pre>boolean isLoggedIn = true;
+boolean isAdmin = false;
+
+System.out.println("Regular user: " + (isLoggedIn && !isAdmin));
+System.out.println("Has access: " + (isLoggedIn || isAdmin));
+System.out.println("Not logged in: " + (!isLoggedIn));</pre>
+
