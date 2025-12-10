@@ -885,3 +885,17 @@ System.out.println("Regular user: " + (isLoggedIn && !isAdmin));
 System.out.println("Has access: " + (isLoggedIn || isAdmin));
 System.out.println("Not logged in: " + (!isLoggedIn));</pre>
 
+### Java Operator Precedence
+#### Java Operator Precedence
+
+When a calculation contains more than one operator, Java follows order of operations rules to decide which part to calculate first.
+
+For example, multiplication happens before addition:
+#### Example
+<pre>int result1 = 2 + 3 * 4;     // 2 + 12 = 14
+int result2 = (2 + 3) * 4;   // 5 * 4 = 20
+
+System.out.println(result1);
+System.out.println(result2);</pre>
+
+
