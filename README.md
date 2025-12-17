@@ -901,3 +901,24 @@ In 2 + 3 * 4, the multiplication is done first, so the answer is 14.
 
 If you want the addition to happen first, you must use parentheses: (2 + 3) * 4, which gives 20.
 
+
+### Order of Operations
+Here are some common operators, from highest to lowest priority:
+
+() - Parentheses.
+
+*, /, % - Multiplication, Division, Modulus.
+
++, - - Addition, Subtraction.
+
+>, <, >=, <= - Comparison.
+>
+==, != - Equality.
+
+&& - Logical AND.
+
+|| - Logical OR.
+
+= - Assignment.
+
+
