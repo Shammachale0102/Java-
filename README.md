@@ -931,3 +931,13 @@ int result2 = 10 - (2 + 5);  // 10 - 7 = 3
 System.out.println(result1);
 System.out.println(result2);</pre>
 
+## Java Strings
+### Java Strings
+
+Strings are used for storing text.
+
+A String variable contains a collection of characters surrounded by double quotes (""):
+
+#### Example
+Create a variable of type String and assign it a value:
+<pre>String greeting = "Hello";</pre>
