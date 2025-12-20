@@ -941,3 +941,13 @@ A String variable contains a collection of characters surrounded by double quote
 #### Example
 Create a variable of type String and assign it a value:
 <pre>String greeting = "Hello";</pre>
+
+### String Length
+A String in Java is actually an object, which means it contains methods that can perform certain operations on strings.
+
+For example, you can find the length of a string with the length() method:
+
+#### Example
+<pre>String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());</pre>
+
