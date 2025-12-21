@@ -951,3 +951,17 @@ For example, you can find the length of a string with the length() method:
 <pre>String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 System.out.println("The length of the txt string is: " + txt.length());</pre>
 
+### More String Methods
+
+There are many string methods available in Java.
+
+For example:
+
+The toUpperCase() method converts a string to upper case letters.
+
+The toLowerCase() method converts a string to lower case letters.
+
+#### Example
+<pre>String txt = "Hello World";
+System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+System.out.println(txt.toLowerCase());   // Outputs "hello world"</pre>
