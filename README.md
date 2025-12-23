@@ -1,4 +1,3 @@
-
 # Java-
 ## Java Introduction
 ### What is Java?
@@ -973,3 +972,10 @@ The indexOf() method returns the index (the position) of the first occurrence of
 #### Example
 <pre>String txt = "Please locate where 'locate' occurs!";
 System.out.println(txt.indexOf("locate")); // Outputs 7</pre>
+
+You can use the charAt() method to access a character at a specific position in a string:
+
+#### Example
+<pre>String txt = "Hello";
+System.out.println(txt.charAt(0));  // H
+System.out.println(txt.charAt(4));  // o</pre>
