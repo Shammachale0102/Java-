@@ -980,3 +980,24 @@ You can use the charAt() method to access a character at a specific position in 
 <pre>String txt = "Hello";
 System.out.println(txt.charAt(0));  // H
 System.out.println(txt.charAt(4));  // o</pre>
+
+### Comparing Strings
+To compare two strings, you can use the equals() method:
+
+#### Example
+<pre>String txt1 = "Hello";
+String txt2 = "Hello";
+
+String txt3 = "Greetings";
+String txt4 = "Great things";
+
+System.out.println(txt1.equals(txt2));  // true
+System.out.println(txt3.equals(txt4));  // false</pre>
+
+### Removing Whitespace
+The trim() method removes whitespace from the beginning and the end of a string:
+
+#### Example
+<pre>String txt = "   Hello World   ";
+System.out.println("Before: [" + txt + "]");
+System.out.println("After:  [" + txt.trim() + "]");</pre>
