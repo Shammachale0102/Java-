@@ -1000,3 +1000,13 @@ The trim() method removes whitespace from the beginning and the end of a string:
 <pre>String txt = "   Hello World   ";
 System.out.println("Before: [" + txt + "]");
 System.out.println("After:  [" + txt.trim() + "]");</pre>
+
+## Java String Concatenation
+### String Concatenation
+
+The + operator can be used between strings to combine them. This is called concatenation:
+
+#### Example
+<pre>String firstName = "John";
+String lastName = "Doe";
+System.out.println(firstName + " " + lastName);</pre>
