@@ -1011,3 +1011,15 @@ The + operator can be used between strings to combine them. This is called conca
 <pre>String firstName = "John";
 String lastName = "Doe";
 System.out.println(firstName + " " + lastName);</pre>
+
+### Concatenation in Sentences
+You can use string concatenation to build sentences with both text and variables:
+
+#### Example
+<pre>String name = "Sham";
+int age = 25;
+System.out.println("My name is " + name + " and I am " + age + " years old.");</pre>
+
+#### Result:
+
+My name is Sham and I am 25 years old.
