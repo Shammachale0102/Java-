@@ -1023,3 +1023,20 @@ System.out.println("My name is " + name + " and I am " + age + " years old.");</
 #### Result:
 
 My name is Sham and I am 25 years old.
+
+### The concat() Method
+You can also use the concat() method to concatenate strings:
+
+#### Example
+<pre>String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));</pre>
+
+You can also join more than two strings by chaining concat() calls:
+
+#### Example
+<pre>String a = "Java ";
+String b = "is ";
+String c = "fun!";
+String result = a.concat(b).concat(c);
+System.out.println(result);</pre>
