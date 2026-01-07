@@ -1,5 +1,3 @@
-
-
 # Java-
 ## Java Introduction
 ### What is Java?
